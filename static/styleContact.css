@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 80vh;
+}
+
+h1{
+    font-family: 'Almendra', serif;
+    text-align: center;
+    margin: 36px;
+    font-size: 36px;
+}
+
+.myForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myInput{
+    width: 40%;
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid #540606;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn{
+    padding: 5px;
+    margin: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    background: #4a5ec1;
+    cursor: pointer;
+    width: 8%;
+    outline: none;
+}

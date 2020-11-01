@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: rgb(143, 14, 14);
+    padding: 13px 14px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+#navbar ul{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 44px;
+    font-size: 1.6rem;
+}
+
+
+#logo img{
+    height: 44px;
+    filter: invert(1);
+}
+
+#navbar li{
+    list-style: none;
+    margin: 0px 48px;
+}
+
+#navbar li a{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#navbar li a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+#introsection{
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 64px;
+    color: white;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 444px;
+    background-color: grey;
+}
+
+#introsection div.small{
+    font-size: 44px;
+    padding: 4px;
+}
+
+#mission{
+    height: 300px;
+    margin: auto;
+    display: block;
+    width: 84%;
+}
+
+#mission h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 16px;
+    font-family: 'Almendra', serif;
+}
+
+#mission .card{
+    display: inline-block;
+    margin: 20px 36px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 27%;
+    height: 200px;
+}
+
+#mission .card h3{
+    margin: 0 12px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img{
+    height: 116px;
+    padding: 0px 14px;
+    margin: 16px 8px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 12px;
+}
+
+.card-content p{
+    font-size: 18px;
+}
+
+#sponsorsection{
+    height: 300px;
+    background-color: #f7aeae;
+}
+
+#sponsorsection h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 16px;
+    font-family: 'Almendra', serif;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 116px;
+    margin: 50px;
+}
+
+#footer{
+    font-family: 'Almendra', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
